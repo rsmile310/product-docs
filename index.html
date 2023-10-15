@@ -139,8 +139,6 @@
                         if (i != 0)
                             titleArr.push(jsonData[i][2])
                     }
-                    console.log(titleArr)
-
                     const searchInput = $('#srh-input').val().toLowerCase();
                     const resultList = $('#result-list');
 
@@ -153,13 +151,13 @@
                                     <div class="acc__title">${item}</div>
                                     <div class="acc__panel">
                                         <b>Paper Title: </b> ${item} <br/><br/>
-                                        <b>Authors: </b> ${jsonData[num + 1][2]} <br/><br/>
-                                        <b>Publication Venue: </b> ${jsonData[num + 1][3]} <br/><br/>
-                                        <b>Year of Publication: </b> ${jsonData[num + 1][4]} <br/><br/>
-                                        <b>DOI: </b> ${jsonData[num + 1][5]} <br/><br/>
-                                        <b>Abstract: </b> ${jsonData[num + 1][6]} <br/><br/>
-                                        <b>Contribution: </b> ${jsonData[num + 1][8]} <br/><br/>
-                                        <b>Highlight: </b> ${jsonData[num + 1][9]}
+                                        <b>Authors: </b> ${jsonData[num + 1][3]} <br/><br/>
+                                        <b>Publication Venue: </b> ${jsonData[num + 1][4]} <br/><br/>
+                                        <b>Year of Publication: </b> ${jsonData[num + 1][5]} <br/><br/>
+                                        <b>DOI: </b> ${jsonData[num + 1][6]} <br/><br/>
+                                        <b>Abstract: </b> ${jsonData[num + 1][7]} <br/><br/>
+                                        <b>Contribution: </b> ${jsonData[num + 1][9]} <br/><br/>
+                                        <b>Highlight: </b> ${jsonData[num + 1][10]}
                                     </div>
                                 </div>`);
 
